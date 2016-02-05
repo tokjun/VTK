@@ -375,6 +375,7 @@ int main(int argc, char *argv[])
           "#include \"vtkPythonArgs.h\"\n"
           "#include \"vtkPythonOverload.h\"\n"
           "#include \"vtkConfigure.h\"\n"
+          "#include <stddef.h>\n"
           "#include <sstream>\n");
 
   /* vtkPythonCommand is needed to wrap vtkObject.h */
